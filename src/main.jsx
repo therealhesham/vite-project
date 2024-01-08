@@ -7,13 +7,14 @@ import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-<BrowserRouter>
-<Routes>
-<Route  Component={Login} path='/login'/>
+<Login/>
+{/* <BrowserRouter>
+<Routes> */}
+{/* <Route  Component={Login} path='/login'/> */}
 
-</Routes>
+{/* </Routes>
 
-    </BrowserRouter>
+    </BrowserRouter> */}
 
   </React.StrictMode>,
 )

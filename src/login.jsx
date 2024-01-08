@@ -11,7 +11,7 @@ async function submit(e) {
  e.preventDefault();
 //  fetch({})
 // fetch("http://localhost:3008/auth/login",{method:"POST",credentials:true})
- await axios.post("http://localhost:3008/auth/login",{email,password},{headers:{"Content-Type":"application/json"},withCredentials:true}).then(e=>console.log("bearer",e.headers))
+ await axios.post("https://amacerp.onrender.com/auth/login",{email,password},{headers:{"Content-Type":"application/json"},withCredentials:true}).then(e=>console.log("bearer",e.headers))
 // alert(submit.)
 
 // console.log(submit.headers.bearer)
