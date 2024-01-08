@@ -1,0 +1,82 @@
+input{
+border-radius: 16px;
+min-height: 25px;
+}
+
+.gridparent{
+    /* grid-gap: 0cap; */
+/* border-top: 1px; */
+    display: grid;
+/* height: max-content; */
+grid-template-columns:  75% 25%;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas: 
+
+"left  right"
+"left right"
+"left right"
+
+
+;
+}
+ .form{
+grid-row-start: 1;
+grid-row-start: 3;
+grid-area:right ;
+/* grid-column-start: 2  ;
+grid-column-end: 3; */
+}
+img{
+    margin: 0%;
+width:100%
+
+}
+.leftdiv{
+    width: fit-content;
+    grid-area: left;
+  /* justify-self: flex-start; */
+    /* width: 75%; */
+    /* width: ; */
+    /* grid-row-start: 1;
+   grid-row-end:3;   */
+grid-column-start: 1;
+grid-column-end: 2;
+
+/* background-image: url("https://marketplace.canva.com/EAFtMiaPRPI/1/0/1600w/canva-green-and-beige-human-resources-modern-presentation-dZkEueY1Hdg.jpg"); */
+/* background-size:100% ; */
+/* background-position: inherit; */
+/* height: 100%; */
+/* max-height: max-content; */
+}
+
+.form{
+    
+display: flex;
+width: 400px;
+flex-wrap: wrap;
+justify-content: center;
+  /* for vertical aligning */
+  align-items: center;
+gap: 3px;
+}
+
+input{
+width: 350px;
+border-color: white;
+border: 0cm;
+
+}
+
+.submit{
+    font-size: medium;
+    color: white;
+    shape-outside: margin-box;
+box-shadow: 0cm;
+background-color:seagreen;
+border-color: rgb(40,116,252);
+}
+.submit:hover{
+color: black;
+
+
+}
